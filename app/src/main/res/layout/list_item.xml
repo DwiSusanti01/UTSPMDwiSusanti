@@ -3,12 +3,14 @@
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
     android:layout_margin="8dp">
+// List Item digunakan untuk membuat tata letak untuk item
 
 <LinearLayout
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
     android:orientation="vertical">
 
+    // membuat image view
     <ImageView
         android:id="@+id/item_image"
         android:layout_width="match_parent"
@@ -16,6 +18,7 @@
         android:importantForAccessibility="no"
         android:scaleType="centerCrop" />
 
+    // membuat text view
     <TextView
         android:id="@+id/item_title"
         android:layout_width="wrap_content"
@@ -25,18 +28,21 @@
         android:layout_gravity="center"
         android:textAppearance="?attr/textAppearanceHeadline6" />
 
+    // membuat check box 1
     <CheckBox
         android:id="@+id/checkBox9"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="Like" />
 
+    // membuat check box 2
     <CheckBox
         android:id="@+id/checkBox10"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="Comments" />
 
+    // membuat button dengan nama  "Next"
     <Button
         android:id="@+id/button2"
         android:layout_width="match_parent"

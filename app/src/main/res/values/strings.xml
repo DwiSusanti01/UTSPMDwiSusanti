@@ -1,4 +1,4 @@
-
+    // menambahkan string affirmasi, dan resource yang merupakan nama aplikasi
     <resources>
     <string name="app_name">UTS PM Dwi Susanti</string>
         <string name="affirmation1">Siapa nih di sini mahasiswa Prodi Informatika UTDI?
